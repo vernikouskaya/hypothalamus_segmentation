@@ -51,7 +51,7 @@ DATA
 Training can be started by executing *network.py* file. *my_generator.py* contains the code that is used by the lookup table to load the training samples from the dataset and passes them to the network.
 
 ## Ouput models
-can be downloaded from Releases
+can be downloaded from [Releases](https://github.com/vernikouskaya/hypothalamus_segmentation/releases/download/v1.0/models.zip)
 - models.zip/**efficientnetb0** for hypothalamus segmentation
 - models.zip/**efficientnetb0ICV** for intracranial volume segmentation
 
