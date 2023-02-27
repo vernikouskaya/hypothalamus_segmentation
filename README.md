@@ -34,6 +34,12 @@ hypothalamus_segmentation
 │   │   convert2npz.py
 |
 └───overlay_images
+│   │   GT
+│   │   MRI
+│   │   overlay
+│   │   overlay_GT
+│   │   overlayMRI
+│   │   pred
 │   │   overlayGT.py
 │   │   overlayMRI.py
 |
