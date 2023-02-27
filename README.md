@@ -29,6 +29,8 @@ hypothalamus_segmentation
 |
 └───validation
 │   │   predict.py
+|   |   efficientnetb0ICV.h5
+|   |   efficientnetb0.h5
 │   │   convert2npz.py
 |
 └───overlay_images
