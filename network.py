@@ -77,7 +77,7 @@ for sample in val:
     X_test.append(image)
 
 plt.show()
-f.savefig("Training samples.png", type="png", dpi=300)
+f.savefig("Training samples.png", dpi=300)
 print(len(val))
 print('Number Samples: ', len(X_test))
 
