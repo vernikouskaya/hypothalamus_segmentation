@@ -13,7 +13,7 @@ from keras import backend as K
 import numpy as np
 import matplotlib.pyplot as plt
 
-from keras.utils.vis_utils import plot_model
+from tensorflow.keras.utils import plot_model
 
 from my_generator import DataGenerator
 import os
