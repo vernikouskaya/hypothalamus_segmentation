@@ -22,7 +22,7 @@ class DataGenerator(tensorflow.keras.utils.Sequence):
         self.n_classes = n_classes
         self.shuffle = shuffle
         self.on_epoch_end()
-        random.seed(datetime.now())
+        random.seed(int(datetime.now().timestamp()))
 
     def __len__(self):
         'Denotes the number of batches per epoch, by default all samples are trained once per epoch'
